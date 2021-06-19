@@ -1,0 +1,80 @@
+body{
+	background-color:#8ec3eb;
+	font-family: calibri,Helvetica,sans-serif;
+	
+}
+form{
+	 width:100%;
+	 margin:100px auto;
+	 background:#efefef;
+	 padding:100px 160px 80px 200x;
+	 text-align:right;
+}
+.container{
+	padding:50px;
+	background-color:lightblue;
+}
+#college
+{
+	width:100%;
+	padding:15px;
+	margin:5px 0 22px 0;
+	display:inline-block;
+	border:none;
+	background:#f1f1f1;
+}
+#tname
+{
+	width:100%;
+	padding:15px;
+	margin:5px 0 22px 0;
+	display:inline-block;
+	border:none;
+	background:#f1f1f1;
+}
+
+input[type=text]
+{
+	width:100%;
+	padding:15px;
+	margin:5px 0 22px 0;
+	display:inline-block;
+	border:none;
+	background:#f1f1f1;
+	
+}
+input[type=date]
+{
+	width:100%;
+	padding:15px;
+	margin:5px 0 22px 0;
+	display:inline-block;
+	border:none;
+	background:#f1f1f1
+}
+input[type=table]
+{
+	width:50%;
+	padding:12px 20px;
+	margin:8px 0;
+}
+#registerbtn
+{
+	width:20%;
+	padding:15px;
+	margin:8px 0;
+	background-color:#2a6592;
+	border-radius:12px;
+	cursor:pointer;
+}
+input[type=button]
+{
+	width:100%;
+	padding:15px;
+	margin:8px 0;
+	background-color:#2a6592;
+	border-radius:12px;
+	cursor:pointer;
+}
+	
+	

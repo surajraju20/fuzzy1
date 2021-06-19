@@ -1,0 +1,50 @@
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<link href="https://fonts.googleapis.com/css2?family=Material+Icons"
+      rel="stylesheet">
+
+{% extends "base.html" %}
+{% load static %}
+
+
+
+
+{% block content %}
+<img src="{% static './images/genesis.png' %}" class="img-fluid rounded mx-auto d-block " alt="Genesis"
+     width="150" height="150" style="margin:5%;">
+<div class="container-fluid ">
+    <div style="width:50%;" class="contact2 container-fluid">
+        <form action="login" method="post" class="contact1-form">
+            {% csrf_token %}
+            <div class="">
+                <center><p style="font-family: 'Dela Gothic One', cursive;font-size:30px;">HR LOGIN &nbsp</p></center>
+            </div>
+
+            <br>
+            <div class="input-group mb-3">
+                <div class="input-group-append ">
+                    <span class="input-group-text material-icons"><i class="material-icons-outlined"></i>account_circle</span>
+                </div>
+                <input type="text" class="form-control input_user" placeholder="username" name="username" required>
+            </div>
+            <div class="input-group mb-2">
+                <div class="input-group-append">
+                     <span class="input-group-text material-icons"><i class="material-icons-outlined"></i>vpn_key</span>
+                </div>
+                <input type="password" class="form-control input_pass" placeholder="password" name="password" required>
+            </div>
+    <br>
+            <center>
+                <input type="submit" class="btn btn-warning" style="font-family: 'Dela Gothic One', cursive;">
+            </center>
+            <br><br>
+
+            <center><h2>{{Invalid}}</h2></center>
+
+
+        </form>
+    </div>
+</div>
+{% endblock %}
+
+</body>
+</html>
