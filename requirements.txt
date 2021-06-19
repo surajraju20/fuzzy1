@@ -1,0 +1,14 @@
+django==2.1.7
+Flask>=1.0,<=1.1.2
+wheel
+asgiref  
+mysql-connector-python 
+mysqlclient   
+fpdf   
+pip                   
+protobuf               
+psycopg2              
+pytz                  
+setuptools             
+six                    
+sqlparse    
